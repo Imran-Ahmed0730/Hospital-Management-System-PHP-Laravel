@@ -62,8 +62,12 @@
                            <span class="ti-settings"></span> Settings</a>
                        <a class="dropdown-item" href="#">
                            <span class="ti-help-alt"></span> Help</a>
-                       <a class="dropdown-item" href="#">
+                       <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logoutForm').submit()">
                            <span class="ti-power-off"></span> Logout</a>
+                       <form action="{{route('logout')}}" id="logoutForm" method="post">
+                           @csrf
+                           <input type="hidden" name="id" value="{{}}">
+                       </form>
                    </div>
                </li>
            </ul>

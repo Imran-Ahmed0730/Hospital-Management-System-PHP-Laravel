@@ -28,7 +28,7 @@ This files table contents are outlined below>>>>>
 ** - Emergency CSS
 ** - Welcome CSS
 ** - Speciality CSS
-** - Appointment CSS
+** - appointment CSS
 ** - Banner CSS
 ** - Review Slider CSS
 ** - Page Title CSS
@@ -2102,7 +2102,7 @@ footer {
 }
 
 /*-- End Counter --*/
-/*-- Appointment --*/
+/*-- appointment --*/
 .appointment-area {
   background-image: url("../img/home-two/6.jpg");
   background-size: cover;
@@ -2210,7 +2210,7 @@ footer {
   background-color: #111111;
 }
 
-/*-- End Appointment --*/
+/*-- End appointment --*/
 /*----- End Home Page Two -----*/
 /*----- Home Page Three -----*/
 /*-- Banner --*/
@@ -2937,7 +2937,7 @@ footer {
 }
 
 /*-- End Page Title --*/
-/*-- Appointment --*/
+/*-- appointment --*/
 .appointment-area-two {
   padding-bottom: 180px;
 }
@@ -3046,7 +3046,7 @@ footer {
   margin-top: -160px;
 }
 
-/*-- End Appointment --*/
+/*-- End appointment --*/
 /*----- End Apoointment Page -----*/
 /*----- Doctor Details Page -----*/
 /*-- Page Title --*/
@@ -3202,7 +3202,7 @@ footer {
 }
 
 /*-- End Doctor Details --*/
-/*-- Appointment --*/
+/*-- appointment --*/
 .appointment-area-three {
   padding-bottom: 210px;
 }
@@ -3225,7 +3225,7 @@ footer {
   background-image: url("../img/doctor/4.jpg");
 }
 
-/*-- End Appointment --*/
+/*-- End appointment --*/
 /*----- End Doctor Details Page -----*/
 /*----- Blog Details Page -----*/
 /*-- Page Title --*/
