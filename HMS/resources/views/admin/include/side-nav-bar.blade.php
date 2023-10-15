@@ -1,24 +1,13 @@
 <!-- Sidebar -->
-<nav id="sidebar" class="proclinic-bg">
+<nav id="sidebar" class="proclinic-bg" style="background: linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%););">
     <div class="sidebar-header">
         <a href="index.html"><img src="{{asset('assets/back-end-assets')}}/images/logo.png" class="logo" alt="logo"></a>
     </div>
     <ul class="list-unstyled components">
         <li class="active">
-            <a href="#nav-dashboard" data-toggle="collapse" aria-expanded="true">
+            <a href="#nav-dashboard">
                 <span class="ti-home"></span> Dashboard
             </a>
-            <ul class="collapse list-unstyled show" id="nav-dashboard">
-                <li>
-                    <a href="index.html">Vertical</a>
-                </li>
-                <li>
-                    <a href="https://www.konnectplugins.com/proclinic/Vertical-RTL/index.html">Vertical RTL</a>
-                </li>
-                <li>
-                    <a href="https://www.konnectplugins.com/proclinic/Horizontal/index.html">Horizantal</a>
-                </li>
-            </ul>
         </li>
         <li>
             <a href="#nav-patients" data-toggle="collapse" aria-expanded="false">
@@ -26,16 +15,10 @@
             </a>
             <ul class="collapse list-unstyled" id="nav-patients">
                 <li>
-                    <a href="add-patient.html">Add Patient</a>
+                    <a href="{{route('patient.add')}}">Add Patient</a>
                 </li>
                 <li>
-                    <a href="patients.html">All Patients</a>
-                </li>
-                <li>
-                    <a href="about-patient.html">Patient Details</a>
-                </li>
-                <li>
-                    <a href="edit-patient.html">Edit Patient</a>
+                    <a href="{{route('patient.manage')}}">All Patients</a>
                 </li>
             </ul>
         </li>
@@ -50,12 +33,6 @@
                 <li>
                     <a href="doctors.html">All Doctors</a>
                 </li>
-                <li>
-                    <a href="about-doctor.html">Doctor Details</a>
-                </li>
-                <li>
-                    <a href="edit-doctor.html">Edit Doctor</a>
-                </li>
             </ul>
         </li>
         <li>
@@ -68,12 +45,6 @@
                 </li>
                 <li>
                     <a href="appointments.html">All Appointments</a>
-                </li>
-                <li>
-                    <a href="about-appointment.html">Appointment Details</a>
-                </li>
-                <li>
-                    <a href="edit-appointment.html">Edit Appointment</a>
                 </li>
             </ul>
         </li>
